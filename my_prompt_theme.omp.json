@@ -26,8 +26,8 @@
           "foreground": "#011627",
           "powerline_symbol": "\ue0b0",
           "properties": {
-            "max_width": "4",
-            "style": "powerlevel"
+            "max_depth": "5",
+            "style": "agnoster_short"
           },
           "style": "powerline",
           "template": " \ue5ff {{ .Path }} ",
