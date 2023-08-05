@@ -27,7 +27,7 @@
           "powerline_symbol": "\ue0b0",
           "properties": {
             "folder_separator_icon": "/",
-            "style": "mixed"
+            "style": "powerlevel"
           },
           "style": "powerline",
           "template": " \ue5ff {{ .Path }} ",
