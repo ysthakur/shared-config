@@ -11,14 +11,14 @@
           "powerline_symbol": "\uE0B0",
           "foreground": "#111111",
           "background": "#ffff66",
-          "template": "\uF0E7"
+          "template": " \uF0E7 "
         },
         {
           "background": "#003543",
           "foreground": "#d2ff5e",
           "powerline_symbol": "\ue0b0",
           "style": "powerline",
-          "template": "{{ .UserName }} ",
+          "template": " {{ .UserName }} ",
           "type": "session"
         },
         {
@@ -85,10 +85,7 @@
           "foreground": "#242424",
           "invert_powerline": true,
           "powerline_symbol": "\ue0b2",
-          "background_templates": ["{{ if .Error }}#e91e63{{ end }}"],
-          "properties": {
-            "always_enabled": true
-          }
+          "background_templates": ["{{ if .Error }}#e91e63{{ end }}"]
         },
         {
           "background": "#83769c",
