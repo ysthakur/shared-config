@@ -60,6 +60,15 @@
       "alignment": "right",
       "segments": [
         {
+          "type": "docker",
+          "style": "powerline",
+          "invert_powerline": true,
+          "powerline_symbol": "\ue0b2",
+          "foreground": "#000000",
+          "background": "#0B59E7",
+          "template": "  {{ .Context }} "
+        },
+        {
           "type": "git",
           "style": "powerline",
           "invert_powerline": true,
@@ -88,6 +97,7 @@
           "background_templates": ["{{ if .Error }}#e91e63{{ end }}"]
         },
         {
+          "type": "executiontime",
           "background": "#83769c",
           "foreground": "#ffffff",
           "invert_powerline": true,
@@ -95,8 +105,7 @@
           "properties": {
             "threshold": 300
           },
-          "style": "powerline",
-          "type": "executiontime"
+          "style": "powerline"
         }
       ]
     },
