@@ -27,7 +27,7 @@
           "powerline_symbol": "\ue0b0",
           "properties": {
             "style": "mixed",
-            "mixed_threshold": 5,
+            "mixed_threshold": "5",
           },
           "style": "powerline",
           "template": " \ue5ff {{ .Path }} ",
